@@ -1,0 +1,10 @@
+<svg width="360" height="360" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect id="R" x="200.0" y="200.0" width="50.0" height="100.0" visibility="hidden" fill="rgb(255,0,0)"  >
+    <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="1" fill="freeze" />
+
+ <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0.0 225.0 250.0" to="60.0 225.0 250.0" dur="9s" begin="1s"/>
+    <animate attributeName="x" attributeType="XML" begin="10s" dur="40s" fill="freeze" from="200.0" to="300.0" />    <animate attributeName="y" attributeType="XML" begin="10s" dur="40s" fill="freeze" from="200.0" to="300.0" />
+ <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="60.0 225.0 250.0" to="120.0 325.0 350.0" dur="40s" begin="10s"/>
+  </rect>
+
+</svg>
